@@ -1,10 +1,8 @@
-import Header from '../components/header'
+import Layout from '../components/Layout'
 
-const Index = () => (
-   <div>
-      <Header />
+export default () => (
+   <Layout>
       <p>Hello Next.js</p>
-   </div>
+      <iframe src="https://giphy.com/embed/d5mI2F3MxCTJu" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+   </Layout>
 )
-
-export default Index
